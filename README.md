@@ -1,4 +1,10 @@
 # TwitterBotNBAA
 Twitter bot extension for N.B.A.A.
 
-Checks last 20 mentions (tweets directed at @_NBAA_)
+Checks last 20 mentions (tweets directed at @_NBAA_) and if tweet has proper formatting and has not been liked,
+the bot replies to the tweet with its prediction and then likes the tweet.
+
+format of tweet : "@_NBAA_ MIA vs. LAL"
+
+To run this all the time, add a while loop with a true condition. Add a timer if you want to limit API calls but current not a concern for me
+
